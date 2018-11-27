@@ -101,7 +101,8 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://127.0.0.1/manager/text</url>
-					<path>/mysite3</path>
+					<!-- path 지정 -->
+					<path>/hellospring</path>
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
